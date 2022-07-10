@@ -8,4 +8,6 @@ station wlan0 scan
 station wlan0 get-networks
 station wlan0 connect
 quit
+# test
+ping -c5 www.baidu.com
 ```
