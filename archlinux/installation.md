@@ -1,5 +1,6 @@
 get the iso file
 > mirrors.ustc.edu.cn
+
 connect the internet
 ```
 # change the fonts
