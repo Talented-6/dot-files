@@ -18,7 +18,7 @@ station wlan0 connect
 quit
 # test
 ping -c5 www.baidu.com
-# install, but it has a bug while mannually set the disk layout
+# install, but it has a bug while mannually setting up the disk layout
 # archinstall
 ```
 
@@ -26,4 +26,23 @@ ping -c5 www.baidu.com
 # confirm the system time
 timedatectl status
 timedatectl set-ntp true  # enable the ntp service
+```
+pacman.conf
+> [archlinuxcn]
+> Color
+> Server = https://tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
+
+sudo pacman -S archlinuxcn-keyring
+```
+# about the wayfire settings
+
+loginctl terminate-user $USER
+
+yay nerd-fonts-incon # 3
+
+systemctl enable seatd
+systemctl start seatd
+
+git clone https://gitee.com/mirrors/wayfire.git
 ```
