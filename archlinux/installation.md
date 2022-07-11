@@ -27,11 +27,12 @@ ping -c5 www.baidu.com
 timedatectl status
 timedatectl set-ntp true  # enable the ntp service
 ```
+```
 pacman.conf
-> [archlinuxcn]
+[archlinuxcn]
 Color
 Server = https://tuna.tsinghua.edu.cn/archlinuxcn/$arch
-
+```
 
 sudo pacman -S archlinuxcn-keyring
 ```
