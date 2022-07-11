@@ -58,6 +58,9 @@ zh_CN.UTF-8
 
 # neovim +clipboard
 xclip or xsel
+
+# git
+git config --global credential.helper store
 ```
 
 ```
