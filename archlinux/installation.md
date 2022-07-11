@@ -58,6 +58,14 @@ zh_CN.UTF-8
 
 # neovim +clipboard
 xclip or xsel
+set clipboard+=unnamedplus
+
+# backlight problem
+sudo pacman -S acpilight
+xbacklight -get
+xbacklight -set 50
+xbacklight -inc 10
+xbacklight -dec 10
 
 # git
 git config --global credential.helper store
