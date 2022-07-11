@@ -29,8 +29,8 @@ timedatectl set-ntp true  # enable the ntp service
 ```
 pacman.conf
 > [archlinuxcn]
-> Color
-> Server = https://tuna.tsinghua.edu.cn/archlinuxcn/$arch
+Color
+Server = https://tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
 
 sudo pacman -S archlinuxcn-keyring
