@@ -53,6 +53,8 @@ yay wallpaper
 # Chinese fonts
 noto-fonts-sc(aur)
 adobe-source-han-sans-cn-fonts
+# etc/locale.conf
+zh_CN.UTF-8
 ```
 
 ```
