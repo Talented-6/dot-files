@@ -5,6 +5,10 @@ connect the internet
 ```
 # change the fonts
 setfont ter-u24b
+
+sudo pacman -Sy terminus-font
+setfont ter-v32n
+
 # connect the internet
 iwctl
 device list
