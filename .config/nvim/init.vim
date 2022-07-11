@@ -25,7 +25,7 @@ set cursorline
 " 搜索高亮 取消用:noh完成
 set hlsearch
 
-inoremap <leader>w <Esc>w<cr>
+inoremap <leader>w <Esc>:w<cr>
 " 全选
 nnoremap <leader>sa ggVG
 inoremap jj  <Esc>
