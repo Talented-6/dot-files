@@ -28,7 +28,7 @@ timedatectl status
 timedatectl set-ntp true  # enable the ntp service
 ```
 ```
-pacman.conf
+# pacman.conf
 [archlinuxcn]
 Color
 Server = https://tuna.tsinghua.edu.cn/archlinuxcn/$arch
