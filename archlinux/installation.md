@@ -32,9 +32,10 @@ timedatectl set-ntp true  # enable the ntp service
 [archlinuxcn]
 Color
 Server = https://tuna.tsinghua.edu.cn/archlinuxcn/$arch
-```
 
 sudo pacman -S archlinuxcn-keyring
+```
+
 ```
 # about the wayfire settings
 
@@ -46,4 +47,15 @@ systemctl enable seatd
 systemctl start seatd
 
 git clone https://gitee.com/mirrors/wayfire.git
+
+yay wallpaper
+
+# Chinese fonts
+noto-fonts-sc(aur)
+adobe-source-han-sans-cn-fonts
+```
+
+```
+# wayfire.ini
+autostart_wf_shell=false
 ```
